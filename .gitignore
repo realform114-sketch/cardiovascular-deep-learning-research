@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Data and model artifacts
+data/raw/
+data/processed/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+models/
+outputs/
+results/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
